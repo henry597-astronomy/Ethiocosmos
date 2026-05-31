@@ -2,7 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import { useTopics } from '@/hooks/use-cms-data';
 import { useSubtopics, useLesson } from '@/hooks/use-cms-data';
 import { useAuth } from '@/context/AuthContext';
-import { supabase } from '@/supabase';
+import { supabase } from '@/services/supabase';
 import { ArrowLeft, ArrowRight, BookmarkPlus, BookmarkCheck, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';

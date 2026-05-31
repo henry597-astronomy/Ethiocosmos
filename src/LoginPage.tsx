@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '@/context/AuthContext';
-import { supabase } from '@/supabase';
+import { supabase } from '@/services/supabase';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 

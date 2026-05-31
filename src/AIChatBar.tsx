@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import { Send, Sparkles, X, MessageSquare, Loader2 } from 'lucide-react';
 import { getGroqChatCompletion, type Message } from '@/services/groq';
 import { cn } from '@/lib/utils';

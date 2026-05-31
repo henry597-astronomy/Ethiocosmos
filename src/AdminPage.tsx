@@ -7,7 +7,7 @@ import {
   useLesson,
   useQuizQuestions,
 } from '@/hooks/use-cms-data';
-import { supabase, isValidConfig } from '@/supabase';
+import { supabase, isValidConfig } from '@/services/supabase';
 import { uploadImage } from '@/services/cms';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
